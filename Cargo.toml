@@ -1,0 +1,12 @@
+[package]
+name = "firecast-message-scraper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "firecast_message_scraper"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.22.0"
